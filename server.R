@@ -6,7 +6,7 @@ library(data.table)
 
 id <<- 0
 results <<- data.frame(all=c(0, 0, 0), alive=c(0, 0, 0), dead=c(0, 0, 0))
-host <<- 'https://population-modeling.herokuapp.com/population_research/research/'
+host <<- 'http://127.0.0.1:8000/population_research/research/'
 
 
 server <- function(input, output) {
